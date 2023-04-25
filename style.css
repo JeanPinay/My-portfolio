@@ -17,7 +17,8 @@
  */
 
 body {
-    height: 500vh;
+    /* height: auto;
+    width: auto; */
     /* background-color: #E8C4C4; */
     text-shadow: 0 .05rem .2rem #E8C4C4;
     box-shadow: inset 0 10 20rem rgba(44, 8, 8, 0.5); 
@@ -52,4 +53,15 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+#main{
+    margin-top: 100px;
+}
+
+section{
+    margin-left: 400px;
+}
+#skills{
+    margin-top: 80px;
 }
