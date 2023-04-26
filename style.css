@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 /* Custom default button */
- .btn-secondary,
+.btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
     color: #333;
@@ -15,76 +15,100 @@
 
 body {
   /* background-color: #E8C4C4; */
-  background-image: url('image/bg7.png');
-  text-shadow: 0 .05rem .2rem #E8C4C4;
-  box-shadow: inset 0 10 20rem rgba(44, 8, 8, 0.5); 
+    background-image: url('image/bg7.png');
+    text-shadow: 0 .05rem .2rem #E8C4C4;
+    box-shadow: inset 0 10 20rem rgba(44, 8, 8, 0.5); 
 }
 
 .cover-container {
-  max-width: 60em;
+    max-width: 60em;
 }
 /*
  * Header
  */
 
- .nav-masthead .nav-link {
+.nav-masthead .nav-link {
     padding: .25rem 0;
     font-weight: 700;
     color: black;
     background-color: transparent;
     border-bottom: .25rem solid transparent;
-  }
-  
-  .nav-masthead .nav-link:hover,
-  .nav-masthead .nav-link:focus {
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
     border-bottom-color: black;
-  }
-  
-  .nav-masthead .nav-link + .nav-link {
+}
+
+.nav-masthead .nav-link + .nav-link {
     margin-left: 1rem;
-  }
-  
+}
+
 .nav-masthead .active {
     color: black;
     border-bottom-color: #333;
 }
 #iconHeader{
-    font-size: 40px;
+    font-size: 30px;
 }
 #main{
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 section{
-  margin-left: 400px;
+    margin-left: 400px;
 }
 #skills{
-  margin-top: 80px;
+    margin-top: 80px;
 }
 #circle{
-  gap: 30px;
+    gap: 30px;
 }
-
+#resume:hover, #projects:hover, #contact:hover{
+    font-size: 20px;
+    
+}
 h1, h2 {
     font-family: 'EB Garamond', serif;
     font-size: 4rem !important;
     font-weight: 500;
 }
+.aboutMe{
+    font-family: 'Caveat', cursive;
+    font-size: 23px !important;
+}
+.ml2 {
+    font-weight: 200;
+    font-size: 3.5em;
+}
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
 .icons{
     font-size: 55px;
-}
-.icons i {
-    font-size: 60px;
-    transition: font-size 0.5s ;
 }
 
 .icons i:hover {
     font-size: 90px;
+    color: aqua;
 }
 .flash {
-    animation: flash 0.5s alternate infinite;
+    animation: flash 0.6s  infinite;
 }
 @keyframes flash {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.blink{
+    animation: blink 0.3s infinite;
+}
+@keyframes blink {
     from {
         opacity: 1;
     }
@@ -95,47 +119,48 @@ h1, h2 {
 
 /* Media queries */
 @media (max-width: 1200px) {
-  section {
+    section 
+    {
     margin-left: 200px;
-  }
+    }
 }
 
 @media (max-width: 768px) {
-  section {
+    section 
+    {
     margin-left: 0;
-  }
-  
-  #main {
+    }
+#main {
     margin-top: 50px;
-  }
-  
-  #skills {
+}
+
+#skills {
     margin-top: 50px;
-  }
-  
-  h2, h4 {
+}
+
+h2, h4 {
     font-size: 4rem;
-  }
-  
-  .icons {
+}
+
+.icons {
     font-size: 40px;
-  }
+}
 }
 
 @media (max-width: 576px) {
-  #main {
+    #main {
+        margin-top: 20px;
+}
+
+#skills {
     margin-top: 20px;
-  }
-  
-  #skills {
-    margin-top: 20px;
-  }
-  
-  h2, h4 {
+}
+
+h2, h4 {
     font-size: 1.5rem;
-  }
-  
-  .icons {
+}
+
+.icons {
     font-size: 30px;
-  }
+}
 }
