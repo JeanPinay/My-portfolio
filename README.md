@@ -1,2 +1,2 @@
 # My-portfolio
-https://iridescent-melomakarona-2bf8b7.netlify.app
+https://clinquant-kulfi-02256d.netlify.app
