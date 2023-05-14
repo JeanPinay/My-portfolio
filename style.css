@@ -22,7 +22,7 @@
  */
 
 body {
-  background-image: url('image/bg_original1.png');
+  background-image: url('image/bg_original.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -251,10 +251,15 @@ p{
   }
   
   .card:hover {
-    transform: scale(1.05);
+    transform: scale(2.0);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
-
+.card-body {
+  background-image: url(./image/cardBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 
   @media only screen and (max-width: 480px) {
