@@ -240,15 +240,15 @@ img{
 
 .card:hover {
   flex: 2;
-  background-image: url('./image/card3.png');
+  background-color: #E8A9A9;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .card:not(:hover) { 
-  background-image: url('./image/new.png');
+  background-color: #F9E0BB;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-attachment: fixed; */
+
 
 } 
 .moving-gradient-button {
